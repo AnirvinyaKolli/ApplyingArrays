@@ -1,10 +1,13 @@
 class CollisionBody{
     constructor(x, y, bWidth, bHeight){
+      //Vars 
       this.x = x; 
       this.y = y;
       this.bWidth = bWidth;
       this.bHeight = bHeight;
     }
+
+    //Collision Method
     detectCollision(ob){
       return (
         this.x < ob.x + ob.bWidth &&

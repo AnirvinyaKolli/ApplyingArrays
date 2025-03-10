@@ -11,7 +11,7 @@ class Ship{
     renderShip(){
       
       push()
-        fill(255)
+        fill(255,0,255)
         angleMode(DEGREES)
 
         //Rotates based on dir
